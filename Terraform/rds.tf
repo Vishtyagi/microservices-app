@@ -1,4 +1,4 @@
-resource "aws_db_subnet_group" "rds_subnets" {
+/* resource "aws_db_subnet_group" "rds_subnets" {
   name       = "rdspvtsubnets"
   subnet_ids = module.vpc.private_subnets
 
@@ -32,3 +32,4 @@ resource "aws_db_instance" "rdspostgres" {
   publicly_accessible    = false
   skip_final_snapshot    = true
 }
+ */
