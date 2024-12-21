@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: auth-configmap
+data:
+  DATABASE_HOST: postgres-service
+  DATABASE_NAME: authdb
+  DATABASE_USER: vishal
+  AUTH_TABLE: auth_user

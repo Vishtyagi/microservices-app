@@ -6,7 +6,7 @@ metadata:
     app: postgres
 spec:
   selector:
-    app: auth-app
+    app: auth-db
   ports:
     - protocol: TCP
       port: {{ .Values.service.port }}       

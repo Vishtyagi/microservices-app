@@ -24,7 +24,7 @@ module "eks" {
 
     node_group = {
       min_size     = 2
-      max_size     = 6
+      max_size     = 5
       desired_size = 2
     }
   }

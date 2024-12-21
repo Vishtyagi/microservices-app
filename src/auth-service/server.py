@@ -15,6 +15,7 @@ def get_db_connection():
 
 @server.route('/login', methods=['POST'])
 def login():
+    print('authentication')
     auth_table_name = os.getenv('AUTH_TABLE')
     auth = request.authorization
     if not auth or not auth.username or not auth.password:

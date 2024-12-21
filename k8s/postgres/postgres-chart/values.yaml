@@ -1,10 +1,8 @@
-
 service:
   type: NodePort
   port: 5432
   app: "postgres"
   NodePort: 30002
-
 
 container:
   image: postgres
